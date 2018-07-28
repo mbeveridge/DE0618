@@ -52,6 +52,24 @@ WK3 Exercise :
 
 "_Take the U.S county data set I used in the Flourish tutorials — or any other similar data set you wish. Select one of the potential stories you spotted, do more research about it, and then design a visualization or a series of visualizations to tell that story. Send a message to the discussion forums with a link to your project and a short description of it. Critique at least TWO other projects by other students_"
 
+![Who's Buying What?](Mod3_Exercise_notebook.jpg "initial notes on fields and chart types")
+
+[https://public.flourish.studio/story/11341/](https://public.flourish.studio/story/11341/)
+
+> [I did this on 11/7, but unfortunately lost my original post/notes when the platform shut down. So I'll make brief comments, and try to answer questions if there are any.]
+
+> I'd been through the Flourish tutorials, and wanted to practice with that tool. I had the County data and was interested to see if it was interesting!
+
+>I wanted to avoid simply creating extra columns in Excel to get around difficulties/unfamiliarity. I was willing to look for other datasets if I found a story (especially if I could combine them in Flourish).
+
+>The data (and absence of a time field) limited the chart types I considered would be interesting. I also couldn't make Flourish aggregate the County data into State/Region totals (the way I think Tableau could?).
+
+>I wanted to try out the structure of a story, even if the data didn't support something 'compelling' ...and I don't think it did.
+
+>So, I tried to set the scene and then looked at whether Poverty% might be linked to voting patterns. (And I tried other variables too, but didn't save them.)
+
+>I found Flourish quite 'clunky' for this - trying to keep in mind what point I was trying to make, across several slides, when it was so slow to load each one and didn't show thumbnails of the actual charts. (And I'd have used colours in some slide titles, but couldn't find a way. Same for some other things. I'd have liked to put comments on the face of charts, but couldn't, so think I would next put a lot more detail in the slide title ...which I don't think it was designed for).
+
 ---
 
 ### Module 4: Final project and next steps
