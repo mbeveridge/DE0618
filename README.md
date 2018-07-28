@@ -21,7 +21,7 @@ WK1 Exercise :
 
 ![Life Expectancy Singapore](LifeExpectancySingapore.png "original")
 
-![Life Expectancy Singapore](LifeExpectancySingapore_redesign.jpg "redesign sketches")
+![Life Expectancy Singapore](LifeExpectancySingapore_redesign.jpg "research, critique notes, redesign sketches")
 
 ---
 
