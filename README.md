@@ -48,15 +48,17 @@ This week explains how visualization can be used to communicate with the public.
 * Visual design for communication
 * Software tools: an introduction to this week’s practical videos
 
-WK3 Exercise :
+**WK3 Exercise** :
 
 "_Take the U.S county data set I used in the Flourish tutorials — or any other similar data set you wish. Select one of the potential stories you spotted, do more research about it, and then design a visualization or a series of visualizations to tell that story. Send a message to the discussion forums with a link to your project and a short description of it. Critique at least TWO other projects by other students_"
 
-![Who's Buying What?](Mod3_Exercise_notebook.jpg "initial notes on fields and chart types")
+**"[DE0618][MDAB][Mod3] County.csv + Flourish for story structure"** :
+
+![Mod3_Exercise](Mod3_Exercise_notebook.jpg "initial notes on fields and chart types")
 
 [https://public.flourish.studio/story/11341/](https://public.flourish.studio/story/11341/)
 
-> [I did this on 11/7, but unfortunately lost my original post/notes when the platform shut down. So I'll make brief comments, and try to answer questions if there are any.]
+>[I did this on 11/7, but unfortunately lost my original post/notes when the platform shut down. So I'll make brief comments, and try to answer questions if there are any.]
 
 > I'd been through the Flourish tutorials, and wanted to practice with that tool. I had the County data and was interested to see if it was interesting!
 
@@ -78,9 +80,35 @@ We’ll use this week to design a visualization based on a topic and datasets of
 * Other resources you can consult to keep learning about visualization.
 * Live Hangout: An Interview with Google News Lab’s Simon Rogers
 
-WK4 Exercise :
+**WK4 Exercise** :
 
 "_Do your research and design your visualization. Submit it via the discussion forums as a link and a short description. Give feedback to at least TWO other students_"
+
+**"[DE0618][MDAB][M4] Singapore Life Expectancy"** :
+
+>TL;DR : [https://public.flourish.studio/story/11610/](https://public.flourish.studio/story/11610/) : link to the story in Flourish
+
+>--
+
+>In Module 1 (Option 2) we critiqued a visualisation about Life Expectancy (1990, 2000, 2009 data), from the "Affordable Excellence" book about the Singapore healthcare system. It included sketching a couple of redesigns
+
+>In Module 3 we used the Gapminder (1952-2012) dataset (and Gapminder2012 extract) and the Flourish tool
+
+>--
+
+>In Module 4 I wanted to bring this back to Module 1 :
+
+>1. to see if it was possible to create the Mod1 redesigns in Flourish, by importing the '2' Gapminder datasets (and without deleting/filtering data pre-import ...which would reduce the scope for exploration and require many more files to be managed)
+
+>2. to consider whether increased Singapore Life Expectancy demonstrates the success of the Singapore healthcare system...
+
+>[From my Mod1 post] : What are we most interested in? : Purpose seems to be demonstrating the success of Singapore ["In just 50 years, Singapore transformed itself ... from a country with poor health outcomes to one of the best in the world" -- "Affordable Excellence" book]. The 29-year charts don't cover that 50-year period and most countries appear to have improved decade-on-decade
+
+>--
+
+>And to re-assess how 'easy' it is to work on a Story in Flourish
+
+>[https://public.flourish.studio/story/11610/](https://public.flourish.studio/story/11610/)
 
 ---
 
