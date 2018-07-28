@@ -42,49 +42,49 @@ This week covers how visualization can be used to explore and discover features 
 
 ><As requested, I've provided links to the visuals I mention (rather than inserting them). Also links to my wrangled csv datasets. If I missed any links, the files are all in [https://github.com/mbeveridge/DE0618]>
 
->I used data.worldbank.org and iNZight, to support the choices of the MOOC (and what I assumed other people would be doing, or want to try and copy)
+>**I used data.worldbank.org and iNZight**, to support the choices of the MOOC (and what I assumed other people would be doing, or want to try and copy)
 
->data.worldbank.org pointed at 17,420 datasets in the Data Catalog [https://datacatalog.worldbank.org/], with "Sustainable Development Goals" [https://datacatalog.worldbank.org/dataset/sustainable-development-goals] in "Featured Data" at the top. That said 217 Economies over 50+ years (1960-2017), so hopefully had something interesting
+>data.worldbank.org pointed at 17,420 datasets in the Data Catalog [https://datacatalog.worldbank.org/], with "**Sustainable Development Goals**" [https://datacatalog.worldbank.org/dataset/sustainable-development-goals] in "Featured Data" at the top. That said 217 Economies over 50+ years (1960-2017), so hopefully had something interesting
 
 >--
 
->Data was actually only for 1990-2017 (with a lot of gaps). But was unwieldy for this Exercise (SDGData.csv is 30MB, with ~94000 rows that include 357 Series), so chose one 'interesting' Series (as iNZight Lite has 5MB limit) ...SI.POV.DDAY : "Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)", that I'll call 'Poverty%'
+>Data was actually only for 1990-2017 (with a lot of gaps). But was unwieldy for this Exercise (SDGData.csv is 30MB, with ~94000 rows that include 357 Series), so chose one 'interesting' Series (as iNZight Lite has 5MB limit) ...SI.POV.DDAY : "**Poverty headcount ratio at $1.90 a day (2011 PPP) (% of population)**", that I'll call 'Poverty%'
 
 >DataWrangler (in browser) was 'unresponsive' when I tried, but with Trifacta Wrangler I eventually got a 970KB 'Tidy' csv file that loaded into iNZight Lite ...[SDGData_Poverty_TIDY.csv]. That kept freezing when I tried to Visualize/explore the data, so I moved to iNZight on desktop
 
->The data was a little disappointing (and I'd seen similar before, from other 'sources'), and iNZight a bit 'tricky'. Ultimately the only fields I had available to explore were Year and 'Poverty%' for 263 Countries (and it was complicated by frequent uncertainty of missing values). In the absence of a Region field, I manually selected the Countries for regions of MiddleEast, south-central-asia and finally south-of-sahara (several times) ...creating small multiples for value v's Year and maps
+>The data was a little disappointing (and I'd seen similar before, from other 'sources'), and iNZight a bit 'tricky'. Ultimately the only fields I had available to explore were Year and 'Poverty%' for 263 Countries (and it was **complicated by frequent uncertainty of missing values). In the absence of a Region field, I manually selected the Countries for regions of MiddleEast, south-central-asia and finally south-of-sahara** (several times) ...creating small multiples for value v's Year and maps
 
->MiddleEast : declining in Iran (but always fairly small %'s), rising fast in Yemen (but only 3 data points)
+>MiddleEast : **declining in Iran (but always fairly small %'s), rising fast in Yemen (but only 3 data points)**
 
 >[value_Year_MiddleEast.pdf]
 
->south-central-asia : a number of 'ex-Soviet' countries had similar patterns of high-points ~2000 (USSR dissolved 1991?), then sharp falls (but pre-2000 data was scarce)
+>south-central-asia : a number of **'ex-Soviet' countries had similar patterns of high-points ~2000 (USSR dissolved 1991?), then sharp falls (but pre-2000 data was scarce)**
 
 >[value_Year_south-central-asia.pdf]
 >[value_Year_south-central-asia_maps.pdf]
 
->south-of-sahara : A bit more up&down, rather than down for all countries. And the rates are higher. DR Congo and some others had some v high Poverty% values, probably related to war/refugee
+>south-of-sahara : A bit more up&down, rather than down for all countries. And the rates are higher. **DR Congo and some others had some v high Poverty% values, probably related to war/refugee**
 
 >[value_Year_south-of-sahara.pdf]
 >[value_Year_south-of-sahara_maps.pdf]
 
 >--
 
->Let's try looking at more than one Series on the same chart. SO need more data
+>**Let's try looking at more than one Series on the same chart**. SO need more data
 
 >Using Trifacta to make the initial SDGData.csv 'Tidy' for Years (but keeping all the series, in rows) created a 359MB csv file. Again that seemed too unwieldy for this, so I kept only the years ending '2' and '7' (6 of 28 Years), giving 77MB csv file ...[SDGData_92-17_TIDY.csv]
 
 >I hoped to plot a trellis chart (small multiples of scatter plot) of 'all' the variables (before gradually removing some), to identify some pairs that looked worth investigating further. I couldn't figure out how to do that with iNZight (which I think is because I needed to pivot the data ...though that would try to create more columns than I think allowed by the free Trifacta Wrangler, or DataWrangler)
 
->I ended up plotting value v's Year for all the indicators, to see if any had an interesting range of values ...But all that showed was that I had a few GDP/GNP indicators
+>I ended up plotting value v's Year for all the indicators, to see if any had an interesting range of values ...But **all that showed was that I had a few GDP/GNP indicators**
 
 >[value_Year_IndicatorCode.pdf]
 
 >--
 
->Finally, then, I decided to just pick an extra Series (GDP), and used Trifacta to make the initial SDGData.csv 'Tidy' for Years (unpivot), with values for Poverty% and GDP in 2 separate columns (pivot) created a 349kB csv file ...[SDGData_Poverty+GDP_TIDY.csv]
+>**Finally, then, I decided to just pick an extra Series (GDP)**, and used Trifacta to make the initial SDGData.csv 'Tidy' for Years (unpivot), with values for Poverty% and GDP in 2 separate columns (pivot) created a 349kB csv file ...[SDGData_Poverty+GDP_TIDY.csv]
 
->Plotted Poverty% v's GDP subset by Year (I don't know why it plots 7-year groups together), which gives 4 plots of an unsurprising shape (showing negative correlation between Poverty and GDP), that might benefit from filtering by Region and colouring/sizing the points (which I didn't find in desktop version of iNZight yet)
+>**Plotted Poverty% v's GDP** subset by Year (I don't know why it plots 7-year groups together), which gives 4 plots of an **unsurprising shape (showing negative correlation between Poverty and GDP)**, that might benefit from filtering by Region and colouring/sizing the points (which I didn't find in desktop version of iNZight yet)
 
 >[Poverty_GDP_Year.pdf]
 
@@ -92,7 +92,7 @@ This week covers how visualization can be used to explore and discover features 
 
 >--
 
->Ultimately then, this was frustrating. I got a little more familiar with the tools and data, but the breadth of the data and limitations of tools (and lost/repeated work) meant slow progress/wasted time. (To get an attractive/ satisfying/ quick outcome I'd have chosen both differently, but I also expected that at the start.) To complete this course I can't spend more than the last couple of days on this Exercise, so (so far) have little to show you - sorry
+>**Ultimately then, this was frustrating**. I got a little more familiar with the tools and data, but the breadth of the data and limitations of tools (and lost/repeated work) meant slow progress/wasted time. (To get an attractive/ satisfying/ quick outcome I'd have chosen both differently, but I also expected that at the start.) To complete this course **I can't spend more than the last couple of days on this Exercise, so (so far) have little to show you - sorry**
 
 ---
 
