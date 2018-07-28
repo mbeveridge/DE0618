@@ -15,6 +15,14 @@ WK1 Exercise :
 
 "_Based on what you’ve learned on the video lectures and the readings, see the following two graphics and write a critique of at least one of them; then, engage in conversation with other students_"
 
+![Who's Buying What?](WhoIsBuyingWhat.png "original")
+
+![Who's Buying What?](Screenshot_2018-04-23_18.00.22.png "final redesign, from IGDV1115")
+
+![Life Expectancy Singapore](LifeExpectancySingapore.png "original")
+
+![Life Expectancy Singapore](LifeExpectancySingapore_redesign.jpg "redesign sketches")
+
 ---
 
 ### Module 2: Data exploration
