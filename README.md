@@ -114,7 +114,7 @@ This week explains how visualization can be used to communicate with the public.
 
 [https://public.flourish.studio/story/11341/](https://public.flourish.studio/story/11341/)
 
->[I did this on 11/7, but unfortunately lost my original post/notes when the platform shut down. So I'll make brief comments, and try to answer questions if there are any.]
+>_[I did this on 11/7, but unfortunately lost my original post/notes when the platform shut down. So I'll make brief comments, and try to answer questions if there are any.]_
 
 > I'd been through the Flourish tutorials, and wanted to practice with that tool. I had the County data and was interested to see if it was interesting!
 
