@@ -11,7 +11,7 @@ This week offers an introduction to visualization, what it is, how it works, and
 * Visualization ethics: How visualization may mislead, and how it can tell the truth
 * Data preparation: an explanation of the software videos this week
 
-WK1 Exercise :
+**WK1 Exercise** :
 
 "_Based on what you’ve learned on the video lectures and the readings, see the following two graphics and write a critique of at least one of them; then, engage in conversation with other students_"
 
@@ -22,6 +22,60 @@ WK1 Exercise :
 ![Life Expectancy Singapore](LifeExpectancySingapore.png "original")
 
 ![Life Expectancy Singapore](LifeExpectancySingapore_redesign.jpg "research, critique notes, redesign sketches")
+
+**"[DE0618][MDAB][M1Opt2] Singapore critique"** :
+
+>_Sorry that I'm coming to this late, but this is without 'read[ing] any other student’s critiques before doing so'_
+
+>--
+
+>Initial observations :
+
+>1. Source is "Affordable Excellence" book, about success of Singapore healthcare system ["how it works, how it is financed, its history, and where it is going"], for (presumably) professionals in healthcare or 'government'
+
+>2. Source of data for 'Table 2.2' graphic is WHO and World Bank (if I read that correctly ...unable to clarify from Notes or Bibliography)
+
+>3. 15 countries that are HighIncome and/or AsiaPac (with Singapore being both)
+
+>4. 3 colours represent overlapping categories (ie. 'Male' & 'Female' are each part of 'Both Sexes')
+
+>5. Scale range of the top chart differs from the two below (and mostly doesn't overlap). Units (Years) and spacing (of scaling lines) are the same in all cases
+
+>6. Charts appear to be stacked bars, but the totals are not cumulative and there is no baseline-zero
+
+>7. The bars aren't for equal time periods (if I read that correctly). 1990, 2000, 2009
+
+>--
+
+>Critique (of each point above) :
+
+>1. Singapore is the focus (compared with the others). There might be an incentive to make Singapore appear better than it is (though no evidence that applies here)
+
+>2. Assume that the sources are reliable and the data comparable, (though cannot find a list of author's/sources assumptions)
+
+>3. As for #1, there might be an incentive to make Singapore etc etc. It is positioned at the end (and only on the top chart), which makes comparisons a little harder, and 'a long way' from the scale numbers
+
+>4. The chart is not really a stacked bar chart, so the encoding is misleading (to people familiar with that form) and a modification/alternative would be better
+
+>5. & 6. The size of a step in each chart is comparable, but the length of the bars is misleading (unless we have a baseline at zero). It might make sense to have a single scale instead, but having baseline-zero would make it harder to see differences between countries and Years
+
+>7. The 2013 book was inspired by a 2010 speech. We don't know whether the 2009 data was the most current available at either of those dates, but for our purposes will assume it's 'good enough'
+
+>--
+
+>What are we most interested in? :
+
+>Purpose seems to be demonstrating the success of Singapore ["In just 50 years, Singapore transformed itself ... from a country with poor health outcomes to one of the best in the world"]. The 29-year charts don't cover that 50-year period and most countries appear to have improved decade-on-decade, (for each sex), so how important is seeing change over time, (or each sex). Should we just display 2009, and just 'Both Sexes'?
+
+>--
+
+>How it could be improved?
+
+>I'd have to actually plot the data, to know what tells a 'useful'/interesting/relevant story the best. 2 things come to mind that I'd like to try :
+
+>My initial thought, if we had $income values (ie. continuous, not 3 categories), would be a single scatter plot of 2009 'Both Sexes' data (LifeExpect v's $). I might include 1990 & 2000 data on that same plot (in different colours) and make it a 'connected scatter plot' (ie. a line joining each set of 3 points). I might have 3 separate charts for Male/ Female/ BothSexes, side by side. Singapore would be highlighted in some way (as well as labelling of various countries)
+
+>Without $income values, I'd probably (initially) look at line charts (LifeExpect v's Date) for each country. Singapore would be a comparator in some way. Focusing on 15 lines (just 'Both Sexes', for each country) with possible colours+legend/labels in close proximity is difficult, so I'd try trellis/lattice chart (small multiples) with a common scale. In each of the 14 (15 minus Singapore) I'd have one country and Singapore (and maybe the other countries in an unobtrusive light grey in the background). The order might reflect the 3 Income categories (though I don't see it at the moment), or colouring the name/background/line might do that. Singapore could also be in the centre of a 3x5 or 5x3 arrangement, perhaps showing 3 lines (Male, Female, BothSexes)
 
 ---
 
@@ -38,7 +92,7 @@ This week covers how visualization can be used to explore and discover features 
 
 "_Look for an interesting data set in public sources (https://data.worldbank.org/ or any other public source for global, national, or local data), explore it, and write down what interesting features you've find in it. Send your contribution to the forum. Comment on at least the contributions of 3 other students_"
 
-**[DE0618][MDAB][Mod2] WorldBank > SDGs > Poverty%** :
+**"[DE0618][MDAB][Mod2] WorldBank > SDGs > Poverty%"** :
 
 ><As requested, I've provided links to the visuals I mention (rather than inserting them). Also links to my wrangled csv datasets. If I missed any links, the files are all in [https://github.com/mbeveridge/DE0618]>
 
