@@ -222,4 +222,4 @@ We’ll use this week to design a visualization based on a topic and datasets of
 
 ---
 
-![certificate](DE0618_Certificate.png "certificate")
+![certificate](DE0618_certificate.png "certificate")
